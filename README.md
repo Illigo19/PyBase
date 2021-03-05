@@ -14,7 +14,11 @@ description and use of PyBase
 <h2>- Table and content management function</h2>
 The record base functions from table and in its tables one and/or contents. So there are the functions related to the tables and those related to the contents
 <h3>1) Table management :</h3>
-<code>(obj).newTab(data, "Name")</code>It will create a table with a name (here Name) 
-It can take two versions : <code>(obj).newTab(data, "Name", 1 or None) or  (obj).newTab(data, "Name",2)
-
-
+<i>newTab()</i>
+<code>(obj).newTab(data, "Name")</code>
+ 1 checks if the table already exists and if it already exists he does not recreate it. 2 does not care if a table of the same does not exist or not, can be dangerous because when deleting one of the tables, the 2 will be.
+<br>
+<i>delTab()</i>
+<code>(obj).delTab(data, "Name")</code>
+This function allows you to delete a complete table and with it are contained
+<i>Here the 'Name' table will be deleted.</i>
