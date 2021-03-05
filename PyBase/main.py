@@ -10,7 +10,7 @@ data = obj.getData("myfile")
 
 
 # create a New Table, check if her already exist when newTab(data,table,1 or None) not when newTab(data,table,0)
-obj.newTab(data, "Louis")
+obj.newTab(data, "tableName")
 
 # check if a Table (here : Hello world) exist in data (bool)
 if obj.findTab(data, "Hello world"):
@@ -20,13 +20,13 @@ if obj.findTab(data, "Hello world"):
 obj.delTab(data, "Name")
 
 #add content into a table 
-obj.appendTab(data, "Louis", "Joseph")
+obj.appendTab(data, "tableName", "Content")
 
 # delete from Table a content (here : content)
-obj.delCont(data, "Louis", "Joseph")
+obj.delCont(data, "tableName", "Content")
 
 
-obj.getCont(data, "Louis")
+obj.getCont(data, "tableName")
 
 # show content of Data
 obj.showData(data)
