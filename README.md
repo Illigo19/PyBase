@@ -24,4 +24,10 @@ This function allows you to delete a complete table and with it are contained
 <i>Here the 'Name' table will be deleted.</i>
 <br><br>
 <i>appendTab()</i><code>(obj).appendTab(data, "Name", "Andrew")</code>This function allows to add to a table (here <i>'Name'</i>) content (here <i>'Andrew'</i>)
-The result in the file: <code>tN::Name : {Andrew}</code>
+<br>The result in the file: <code>tN::Name : {Andrew}</code>
+<br><br>
+<i>findTab()</i><code>(obj).findTab(data, "Hello world")</code>This boolean function only allows you to search for a table in the database, it returns True if the table exists.<br><i>Here we search for 'Hello world' among 'data'</i>
+<br><br>
+<h3>2) Content management :</h3>
+<br><br><i>getCont()</i><code>(obj).getCont(data, "Name")</code> Allows to retrieve the contents of a table <i> Here the table 'Name'</i>
+<br><br><i>delCont()</i><code>(obj).delCont(data, "Name", "Joseph")</code> Deletes a particular content in a particular table <i> Here, delete 'Joseph' in table 'Name'</i>
