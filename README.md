@@ -8,7 +8,7 @@ description and use of PyBase
  <code>(obj).getData("myfile")</code>
   It plays the role of <i>dataName = open(myfile.txt, "at")</i> and therefore can easily be replaced by it, but one of the two is required.
   <b>Warning :</b>   Do not give the file extension (here .txt) It will not be able to find it.
- <br>
+ <br><br>
  The second :
  <code>(obj).showData(data)</code>the only purpose of this function is to display the complete contents of what has been recorded by PyBase
 <h2>- Table and content management function</h2>
@@ -17,8 +17,11 @@ The record base functions from table and in its tables one and/or contents. So t
 <i>newTab()</i>
 <code>(obj).newTab(data, "Name")</code>
  1 checks if the table already exists and if it already exists he does not recreate it. 2 does not care if a table of the same does not exist or not, can be dangerous because when deleting one of the tables, the 2 will be.
-<br>
+<br><br>
 <i>delTab()</i>
 <code>(obj).delTab(data, "Name")</code>
 This function allows you to delete a complete table and with it are contained
 <i>Here the 'Name' table will be deleted.</i>
+<br><br>
+<i>appendTab()</i><code>(obj).appendTab(data, "Name", "Andrew")</code>This function allows to add to a table (here <i>'Name'</i>) content (here <i>'Andrew'</i>)
+The result in the file: <code>tN::Name : {Andrew}</code>
