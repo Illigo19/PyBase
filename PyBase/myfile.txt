@@ -1,1 +1,8 @@
 #for test
+Exemple : 
+
+tN::Name : {Jack} {Joe}
+tN::Years : {15} {13}
+
+tN => tableName
+{} => content
