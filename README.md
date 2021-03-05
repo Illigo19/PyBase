@@ -31,3 +31,4 @@ This function allows you to delete a complete table and with it are contained
 <h3>2) Content management :</h3>
 <br><br><i>getCont()</i><code>(obj).getCont(data, "Name")</code> Allows to retrieve the contents of a table <i> Here the table 'Name'</i>
 <br><br><i>delCont()</i><code>(obj).delCont(data, "Name", "Joseph")</code> Deletes a particular content in a particular table <i> Here, delete 'Joseph' in table 'Name'</i>
+<br><br><h2>- More information </h2><br><br> The constructor used is by default <code>obj = PyBase.PyBase()</code><br>As well as 'data' comes from <code>data = obj.getData("myfile")</code>
