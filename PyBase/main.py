@@ -25,8 +25,11 @@ obj.appendTab(data, "tableName", "Content")
 # delete from Table a content (here : content)
 obj.delCont(data, "tableName", "Content")
 
-
+# retrieves a table's contents
 obj.getCont(data, "tableName")
+
+# replace a content 
+obj.replaceCont(data, "Name", "Chloé")
 
 # show content of Data
 obj.showData(data)
