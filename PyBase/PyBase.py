@@ -151,7 +151,11 @@ class PyBase():
 				contents = contents.replace("{", '')
 				contents = contents.replace("}", ' ')
 				return contents
-
+	def replaceCont(self,data, tabName, newContent):
+		content = self.getCont(data, tabName)
+		content = content.replace(' ','')
+		self.delCont(data, tabName, content)
+		self.appendTab(data, tabName, newContent)
 
 
 
