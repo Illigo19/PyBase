@@ -2,6 +2,8 @@
 PyBase is a python module to allow the storage of variables or other
 # Mini Wiki :
 description and use of PyBase
+<h2> -Initialization</h2>
+To install the package : <code>pip install PyBase-manager</code><br>introduce your code by :<code>from PyBase import *</code><br><br>
  <h2>- initiator and spectator functions :</h2>
  These functions are both unnecessary and mandatory.<br>
  The first : 
